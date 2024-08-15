@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\shabnamjs\\Desktop\\AuthenticationProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\shabnamjs\\desktop\\authenticationproject\\authenticationproject\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\shabnamjs\\desktop\\authenticationproject\\authenticationproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\shabnamjs\\desktop\\authenticationproject\\authenticationproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\shabnamjs\\desktop\\authenticationproject\\authenticationproject\\authenticationproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\authenticationproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\AuthenticationProject\\AuthenticationProject\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "AuthenticationProject\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\AuthenticationProject\\AuthenticationProject\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "AuthenticationProject\\Views\\Users\\Index.cshtml",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAwH8AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T07:24:00.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthenticationProject.csproj",
-              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject.csproj",
-              "RelativeDocumentMoniker": "AuthenticationProject\\AuthenticationProject.csproj",
-              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject.csproj",
-              "RelativeToolTip": "AuthenticationProject\\AuthenticationProject.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-15T07:16:11.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\AuthenticationProject\\AuthenticationProject\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "AuthenticationProject\\Models\\ApplicationUser.cs",
@@ -69,13 +35,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\AuthenticationProject\\AuthenticationProject\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "AuthenticationProject\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\AuthenticationProject\\AuthenticationProject\\Controllers\\UsersController.cs",
               "RelativeToolTip": "AuthenticationProject\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T07:06:29.146Z",
               "EditorCaption": ""
