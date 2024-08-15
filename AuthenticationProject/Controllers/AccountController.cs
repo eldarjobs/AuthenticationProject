@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace AuthenticationProject.Controllers;
 
 
-//[Authorize]
+[Authorize]
 public class AccountController : Controller
 {
-    //[AllowAnonymous]
+    [AllowAnonymous]
     public IActionResult Login()
     {
         return View();

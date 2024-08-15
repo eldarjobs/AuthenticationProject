@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AuthenticationProject.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240815072828_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240815081256_Added2")]
+    partial class Added2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,7 +34,6 @@ namespace AuthenticationProject.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("ApiKey")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -72,7 +71,6 @@ namespace AuthenticationProject.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("SecretKey")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
@@ -107,6 +105,11 @@ namespace AuthenticationProject.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(21)
+                        .HasColumnType("nvarchar(21)");
+
                     b.Property<string>("Name")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -123,6 +126,10 @@ namespace AuthenticationProject.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasDiscriminator().HasValue("IdentityRole");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -229,6 +236,16 @@ namespace AuthenticationProject.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("AuthenticationProject.Models.ApplicationRole", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityRole");
+
+                    b.Property<DateTime?>("ExpiredDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasDiscriminator().HasValue("ApplicationRole");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
