@@ -1,4 +1,4 @@
-using AuthenticationProject.Data;
+﻿using AuthenticationProject.Data;
 using AuthenticationProject.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
@@ -13,26 +13,26 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
 {
-    options.User.AllowedUserNameCharacters = "qwertyuiopasadfghjklzxcvbnmQWERTYUIIOPASDFGHJKLZXCVBNM1234567890";
+    options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
+    // aynı mail adresi birden fazla kullanılamaz, mail uniq olmak zorundadır
     options.User.RequireUniqueEmail = true;
 
-    options.Password.RequireDigit = true;
-    options.Password.RequiredLength = 6;
-    options.Password.RequireLowercase = true;
-    options.Password.RequireUppercase = true;
-    options.Password.RequireNonAlphanumeric = true;
-    // options.Password.RequiredUniqueChars = 1;
+    // Password Settings
+    options.Password.RequireDigit = true;           // En az bir rakam
+    options.Password.RequiredLength = 6;            // En az 6 karakter
+    options.Password.RequireLowercase = true;       // En az bir küçük harf
+    options.Password.RequireUppercase = true;       // En az bir büyük harf
+    options.Password.RequireNonAlphanumeric = true; // En az bir özel karakter
+    // options.Password.RequiredUniqueChars = 1;       // Tekrar eden karakter sayısı (örn: aa, bb, cc gibi) 1 olmalıdır
 
-    options.Lockout.AllowedForNewUsers = true;
-    options.Lockout.MaxFailedAccessAttempts = 5;
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
+    // Lockout Settings
 
-    options.SignIn.RequireConfirmedEmail = true;
-
-    options.Tokens.EmailConfirmationTokenProvider = "emailconfirmation";
-
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5); // 5 dakika sonra tekrar deneme hakkı
+    options.Lockout.MaxFailedAccessAttempts = 2; // 5 defa yanlış giriş yapınca hesap kilitlenir
+    options.Lockout.AllowedForNewUsers = true; // Yeni kullanıcılar içinde bu ayar geçerli olacak
 })
+    
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
