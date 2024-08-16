@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\",
+  "WorkspaceRootPath": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\authenticationproject\\authenticationproject\\authenticationproject\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\auth\\authenticationproject\\authenticationproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\auth\\authenticationproject\\authenticationproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\auth\\authenticationproject\\authenticationproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\auth\\authenticationproject\\authenticationproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\auth\\authenticationproject\\authenticationproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\auth\\authenticationproject\\authenticationproject\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\authenticationproject\\authenticationproject\\authenticationproject\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\auth\\authenticationproject\\authenticationproject\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\auth\\authenticationproject\\authenticationproject\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\authenticationproject\\authenticationproject\\authenticationproject\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|c:\\users\\eldareey\\desktop\\authenticationproject\\authenticationproject\\authenticationproject\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04416920-5E1F-49C7-81B8-2031F2FBCC24}|AuthenticationProject\\AuthenticationProject.csproj|solutionrelative:authenticationproject\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +50,101 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\Views\\Users\\Create.cshtml",
-              "RelativeDocumentMoniker": "AuthenticationProject\\Views\\Users\\Create.cshtml",
-              "ToolTip": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\Views\\Users\\Create.cshtml",
-              "RelativeToolTip": "AuthenticationProject\\Views\\Users\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T08:54:33.596Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "AuthenticationProject\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "AuthenticationProject\\Views\\Users\\Index.cshtml",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAAwH8AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T08:54:25.387Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\Views\\Roles\\Create.cshtml",
-              "RelativeDocumentMoniker": "AuthenticationProject\\Views\\Roles\\Create.cshtml",
-              "ToolTip": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\Views\\Roles\\Create.cshtml",
-              "RelativeToolTip": "AuthenticationProject\\Views\\Roles\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T08:54:22.557Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthenticationProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\appsettings.json",
+              "RelativeToolTip": "AuthenticationProject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-16T08:38:47.114Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "AuthenticationProject\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "AuthenticationProject\\Controllers\\RolesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Program.cs",
+              "RelativeDocumentMoniker": "AuthenticationProject\\Program.cs",
+              "ToolTip": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Program.cs",
+              "RelativeToolTip": "AuthenticationProject\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T08:38:14.56Z",
+              "WhenOpened": "2024-08-16T08:34:43.448Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AuthenticationProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AuthenticationProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAB0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T08:21:40.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AuthenticationProject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AuthenticationProject\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:48:03.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AuthenticationProject\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AuthenticationProject\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T07:47:36.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Views\\Roles\\Create.cshtml",
+              "RelativeDocumentMoniker": "AuthenticationProject\\Views\\Roles\\Create.cshtml",
+              "ToolTip": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Views\\Roles\\Create.cshtml",
+              "RelativeToolTip": "AuthenticationProject\\Views\\Roles\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T07:43:03.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Dtos\\LoginUserDto.cs",
+              "RelativeDocumentMoniker": "AuthenticationProject\\Dtos\\LoginUserDto.cs",
+              "ToolTip": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Dtos\\LoginUserDto.cs",
+              "RelativeToolTip": "AuthenticationProject\\Dtos\\LoginUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T06:43:35.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "AuthenticationProject\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "AuthenticationProject\\Controllers\\RolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T05:28:42.36Z"
             }
           ]
         }

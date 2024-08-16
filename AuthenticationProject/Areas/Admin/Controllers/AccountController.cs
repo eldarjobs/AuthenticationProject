@@ -5,10 +5,10 @@ namespace AuthenticationProject.Areas.Admin.Controllers;
 
 
 [Area("Admin")]
-[Authorize]
+//[Authorize]
 public class AccountController : Controller
 {
-    [AllowAnonymous]
+    //[AllowAnonymous]
     public IActionResult Login()
     {
         return View();

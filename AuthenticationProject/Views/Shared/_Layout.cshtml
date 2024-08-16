@@ -25,6 +25,23 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="btn btn-link text-danger" asp-area="" asp-controller="Account" asp-action="logout">Exit</a>
+                            </li>
+
+
+                        }
+                        else{
+                            <li class="nav-item">
+                                <a class="btn btn-link" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                            </li>
+
+                        }
+                       
+
+                        
                     </ul>
                 </div>
             </div>
@@ -45,5 +62,6 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    @await RenderSectionAsync("js", required: false)
 </body>
 </html>

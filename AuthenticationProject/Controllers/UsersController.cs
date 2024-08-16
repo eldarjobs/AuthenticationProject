@@ -10,21 +10,17 @@ public class UsersController : Controller
 {
     #region Constructor
     private readonly UserManager<ApplicationUser> _userManager;
-    private readonly RoleManager<ApplicationRole> _roleManager;
-    //private readonly PasswordHasher<ApplicationUser> _passwordHasher;
     private readonly IPasswordValidator<ApplicationUser> _passwordValidator;
+    private readonly RoleManager<ApplicationRole> _roleManager;
 
     public UsersController(
         UserManager<ApplicationUser> userManager,
-        RoleManager<ApplicationRole> roleManager,
-        IPasswordValidator<ApplicationUser> passwordValidator
-        //PasswordHasher<ApplicationUser> passwordHasher
-        )
+        IPasswordValidator<ApplicationUser> passwordValidator,
+        RoleManager<ApplicationRole> roleManager)
     {
         this._userManager = userManager;
-        this._roleManager = roleManager;
         this._passwordValidator = passwordValidator;
-        //this._passwordHasher = passwordHasher;
+        this._roleManager = roleManager;
     }
 
     #endregion
@@ -35,13 +31,12 @@ public class UsersController : Controller
         return View(model: users);
     }
 
-
-    public async Task<IActionResult> Create() => View();
+    public IActionResult Create() => View();
 
     [HttpPost]
-    public async Task<IActionResult> Create([Bind("UserName,Email,Password")] RegisterUserDto model)
+    public async Task<IActionResult> Create([Bind("UserName, Email, Password")] RegisterUserDto model)
     {
-        if (ModelState.IsValid)
+        if(ModelState.IsValid)
         {
             var user = new ApplicationUser
             {
@@ -49,18 +44,16 @@ public class UsersController : Controller
                 Email = model.Email
             };
 
-
             var result = await _userManager.CreateAsync(user, model.Password);
-            if (result.Succeeded)
+
+            if(result.Succeeded)
             {
                 string defaultRole = "User";
-                if (!await _roleManager.RoleExistsAsync(defaultRole))
+                if(!await _roleManager.RoleExistsAsync(defaultRole))
                 {
-                    await _roleManager.CreateAsync(new ApplicationRole
-                    {
-                        Name = defaultRole
-                    });
+                    await _roleManager.CreateAsync(new ApplicationRole { Name = defaultRole });
                 }
+
                 await _userManager.AddToRoleAsync(user, defaultRole);
                 return RedirectToAction(nameof(Index));
             }
@@ -68,13 +61,12 @@ public class UsersController : Controller
             {
                 foreach (var error in result.Errors)
                 {
-                    ModelState.AddModelError(string.Empty, error.Description);
+                    ModelState.AddModelError("", error.Description);
                 }
             }
         }
 
         return View(model);
     }
-
 
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject.csproj": {}
+    "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject.csproj": {
+    "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject.csproj",
+        "projectUniqueName": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject.csproj",
         "projectName": "AuthenticationProject",
-        "projectPath": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject.csproj",
+        "projectPath": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject.csproj",
         "packagesPath": "C:\\Users\\eldareey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eldareey\\Desktop\\AuthenticationProject\\AuthenticationProject\\AuthenticationProject\\obj\\",
+        "outputPath": "C:\\Users\\eldareey\\Desktop\\auth\\AuthenticationProject\\AuthenticationProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
